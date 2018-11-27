@@ -1,0 +1,51 @@
+body{ 
+    background-color: white;
+    /* height: 98vh;
+    width: 99vw; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 200px 0px;
+
+}
+button{ 
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-color: red;
+
+}
+#complicated{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#search-button{
+    border-radius: 60px;
+    width: 400px;
+    height: 40px;
+}   
+.img2{
+    margin: 0px 0px 20px 0px;
+}
+.images{
+    display: flex;
+}
+
+#img3{
+    
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: o;
+    left: 0;
+}
